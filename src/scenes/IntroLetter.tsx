@@ -3,11 +3,13 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useAudio } from "../components/AudioController";
 import { PasswordScreen } from "../components/PasswordScreen";
+import { useProgress } from "../state/useProgress";
 
 export function IntroLetter() {
   const [isUnlocked, setIsUnlocked] = useState(false);
   const navigate = useNavigate();
   const { playSfx, setSceneMusic } = useAudio();
+  const { reset } = useProgress();
 
   useEffect(() => {
     if (isUnlocked) {
@@ -22,6 +24,7 @@ export function IntroLetter() {
 
   const handleUnlock = () => {
     playSfx("magic");
+    reset(); // Clear all progress including visited rooms and letter state
     setIsUnlocked(true);
   };
 
