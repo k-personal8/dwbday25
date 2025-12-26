@@ -1,0 +1,30 @@
+[
+  {
+    "id": "firsts",
+    "name": "The Hall of Firsts",
+    "description": "Where our story began",
+    "icon": "✨",
+    "color": "#D4AF37"
+  },
+  {
+    "id": "adventures",
+    "name": "The Adventure Wing",
+    "description": "Our journeys together",
+    "icon": "🗺️",
+    "color": "#2E8B57"
+  },
+  {
+    "id": "celebrations",
+    "name": "The Celebration Chamber",
+    "description": "Moments worth celebrating",
+    "icon": "🎉",
+    "color": "#9B59B6"
+  },
+  {
+    "id": "everyday",
+    "name": "The Everyday Gallery",
+    "description": "Little moments, infinite love",
+    "icon": "💕",
+    "color": "#E74C3C"
+  }
+]

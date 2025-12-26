@@ -1,0 +1,14 @@
+[
+  { "slot": 1, "frameType": "rect", "image": "/images/memories/final/01.jpg" },
+  { "slot": 2, "frameType": "oval", "image": "/images/memories/final/02.jpg" },
+  { "slot": 3, "frameType": "rect", "image": "/images/memories/final/03.jpg" },
+  { "slot": 4, "frameType": "oval", "image": "/images/memories/final/04.jpg" },
+  { "slot": 5, "frameType": "special", "image": "/images/memories/final/05.jpg" },
+  { "slot": 6, "frameType": "oval", "image": "/images/memories/final/06.jpg" },
+  { "slot": 7, "frameType": "oval", "image": "/images/memories/final/07.jpg" },
+  { "slot": 8, "frameType": "rect", "image": "/images/memories/final/08.jpg" },
+  { "slot": 9, "frameType": "oval", "image": "/images/memories/final/09.jpg" },
+  { "slot": 10, "frameType": "rect", "image": "/images/memories/final/10.jpg" },
+  { "slot": 11, "frameType": "oval", "image": "/images/memories/final/11.jpg" },
+  { "slot": 12, "frameType": "rect", "image": "/images/memories/final/12.jpg" }
+]

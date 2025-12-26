@@ -1,0 +1,105 @@
+[
+  {
+    "id": "m001",
+    "roomId": "firsts",
+    "title": "Our First Photo",
+    "date": "2024-01-02",
+    "caption": "The day the world became more beautiful. I knew from that moment :)",
+    "image": "/images/memories/firsts/first_photo.jpeg"
+  },
+  {
+    "id": "m002",
+    "roomId": "firsts",
+    "title": "First Valentine's Day",
+    "date": "2024-02-14",
+    "caption": "The first of many unique bouquets for the most special girl in the world.",
+    "image": "/images/memories/firsts/first_valentines.jpeg",
+    "cropPosition": "50%"
+  },
+  {
+    "id": "m003",
+    "roomId": "firsts",
+    "title": "First Halloween",
+    "date": "2024-10-31",
+    "caption": "That night, I saw the most beautiful thing in the world, your sparkling eyes. I will always cherish that night, spending your favorite holiday together for the first time :)",
+    "image": "/images/memories/firsts/first_halloween.jpeg",
+    "cropPosition": "50%"
+  },
+  {
+    "id": "m004",
+    "roomId": "adventures",
+    "title": "Rainbow Springs State Park",
+    "date": "2023-03-14",
+    "caption": "Sun, the clear waters, and you, sounds like a perfect day to me :)",
+    "image": "/images/memories/adventures/springs.jpeg",
+    "cropPosition": "40%"
+  },
+  {
+    "id": "m005",
+    "roomId": "adventures",
+    "title": "Canada Together",
+    "date": "2024-05-30",
+    "caption": "Thank you for coming across the border with your parents just to see me before the long summer break :)",
+    "image": "/images/memories/adventures/canada.jpeg"
+  },
+  {
+    "id": "m006",
+    "roomId": "adventures",
+    "title": "The Weeknd's Concert in Jersey",
+    "date": "2023-09-05",
+    "caption": "I really do love everything about you, so much that your favorite artist is my second favorite now (you are first)!",
+    "image": "/images/memories/adventures/weeknd.jpeg",
+    "cropPosition": "20%"
+  },
+  {
+    "id": "m007",
+    "roomId": "celebrations",
+    "title": "Your Graduation",
+    "date": "2024-05-17",
+    "caption": "I remember watching your speech as Senior Class President like it was yesterday! Thank you for the shoutout :)",
+    "image": "/images/memories/celebrations/president.jpeg"
+  },
+  {
+    "id": "m008",
+    "roomId": "celebrations",
+    "title": "Our First Birthday Together",
+    "date": "2025-08-11",
+    "caption": "Thank you for making it my favorite birthday out of all 19 :)",
+    "image": "/images/memories/celebrations/mybirthday.jpg"
+  },
+  {
+    "id": "m009",
+    "roomId": "celebrations",
+    "title": "FBLA Win Together",
+    "date": "2024-06-29",
+    "caption": "The best gift was having you there alongside me, thank you for being my biggest fan :)",
+    "image": "/images/memories/celebrations/orlando.jpeg",
+    "cropPosition": "30%"
+  },
+  {
+    "id": "m010",
+    "roomId": "everyday",
+    "title": "Dinner Dates with You",
+    "date": "2024-08-31",
+    "caption": "My favorite dinners are dinner dates anywhere with you. I can't wait for our next trip to Mayday's!",
+    "image": "/images/memories/everyday/mayday.jpeg",
+    "cropPosition": "30%"
+  },
+  {
+    "id": "m011",
+    "roomId": "everyday",
+    "title": "Studying Together",
+    "date": "2024-09-14",
+    "caption": "Thank you for helping me feel less stressed about all of my tests and exams!",
+    "image": "/images/memories/everyday/butler.jpeg"
+  },
+  {
+    "id": "m012",
+    "roomId": "everyday",
+    "title": "Hamilton on Broadway",
+    "date": "2024-10-19",
+    "caption": "You, me, and your favorite musical. I like your version of the musical better! Your voice is so beautiful to me :)",
+    "image": "/images/memories/everyday/hamilton.jpeg",
+    "cropPosition": "80%"
+  }
+]
