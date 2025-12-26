@@ -16,8 +16,12 @@ interface Props {
   onPrev?: () => void;
 }
 
+const base = import.meta.env.BASE_URL;
+
 export function MemoryModal({ memory, onClose, onNext, onPrev }: Props) {
   if (!memory) return null;
+  
+  const imageSrc = memory.image.startsWith('/') ? `${base}${memory.image.slice(1)}` : memory.image;
 
   return (
     <AnimatePresence>
@@ -40,7 +44,7 @@ export function MemoryModal({ memory, onClose, onNext, onPrev }: Props) {
           <div className="memory-modal-content">
             <div className="memory-image-container">
               <img 
-                src={memory.image} 
+                src={imageSrc} 
                 alt={memory.title}
                 style={memory.cropPosition ? { objectPosition: `center ${memory.cropPosition}` } : undefined}
                 onError={(e) => {

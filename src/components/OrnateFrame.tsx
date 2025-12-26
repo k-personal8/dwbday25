@@ -9,8 +9,11 @@ interface Props {
   size?: "small" | "medium" | "large";
 }
 
+const base = import.meta.env.BASE_URL;
+
 export function OrnateFrame({ image, frameType, onClick, delay = 0, size = "medium" }: Props) {
   const [isLoaded, setIsLoaded] = useState(false);
+  const imageSrc = image.startsWith('/') ? `${base}${image.slice(1)}` : image;
   
   const sizeClasses = {
     small: "ornate-frame-small",
@@ -29,7 +32,7 @@ export function OrnateFrame({ image, frameType, onClick, delay = 0, size = "medi
     >
       <div className="frame-inner">
         <img 
-          src={image} 
+          src={imageSrc} 
           alt="Memory" 
           className="frame-photo loaded"
           loading="eager"

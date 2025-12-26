@@ -72,9 +72,10 @@ export function AudioProvider({ children }: Props) {
   };
 
   const setSceneMusic = (scene: "main" | "museum") => {
+    const base = import.meta.env.BASE_URL;
     const track = scene === "museum" 
-      ? "/audio/music/dream.mp3" 
-      : "/audio/music/hogwarts.mp3";
+      ? `${base}audio/music/dream.mp3` 
+      : `${base}audio/music/hogwarts.mp3`;
     playMusic(track);
   };
 
@@ -91,8 +92,9 @@ export function AudioProvider({ children }: Props) {
 
   const playSfx = (name: string) => {
     if (isMuted) return;
+    const base = import.meta.env.BASE_URL;
     const sfx = new Howl({
-      src: [`/audio/sfx/${name}.mp3`],
+      src: [`${base}audio/sfx/${name}.mp3`],
       volume: 0.5,
     });
     sfx.play();
